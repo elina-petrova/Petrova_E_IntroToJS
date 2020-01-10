@@ -1,1 +1,1 @@
-# Petrova_E_IntroToJS
+Svg project
