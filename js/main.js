@@ -7,8 +7,7 @@
 
   console.log("some message - from JavaScript");
 
-  let theButton = document.querySelector("#myButton"),
-      theHeading = document.querySelector("h1"),
+  let theHeading = document.querySelector("h1"),
       svgImage = document.querySelector("#svgGraphic"),
     //  svgImage2 = document.querySelector("#svgGraphic2");
       allSVGs = document.querySelectorAll(".svg");
@@ -19,16 +18,16 @@
     console.log(this.id);
   }
   // this function changes the heading text
-  function changeText(){
-    theHeading.textContent = "there is no way out of JS";
-  }
+  //function changeText(){
+  //  theHeading.textContent = "there is no way out of JS";
+  //}
 
-  for (el in allSVGs){
+  //for (el in allSVGs){
 
-  }
+  //}
 
 
-  theButton.addEventListener('click', changeText);
+  //theButton.addEventListener('click', changeText);
   //svgImage.addEventListener('click', logSVG);
   svgImage.addEventListener('click', changeSVG);
   //svgImage2.addEventListener('click', logSVG);

@@ -1,8 +1,25 @@
 .img-wrapper{
   display: inline-block;
-  width: 40%;
+  width: 20%;
   padding: 10px 15px;
 }
 .img-wrapper img{
   width: 100%;
+}
+.black-bg{
+  background-color: black;
+}
+
+/*svg:hover #lGrain { fill: red;}
+svg:hover #rGrain { fill: red;}
+svg:hover #bottle {fill: pink} */
+
+#beerGraphic:hover #lGrain{ fill: red; }
+#beerGraphic:hover #rGrain{ fill: red; }
+
+#beerGraphic:hover #lStar{ fill: yellow;}
+#beerGraphic:hover #rStar{ fill: yellow;}
+#beerGraphic:hover{
+  transition: transform 5s ease-in-out;
+  transform: rotate(360deg);
 }
